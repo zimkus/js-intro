@@ -13,8 +13,8 @@ console.clear();
 
 //2.
 
-const y1 = 'labas mano';
-const y2 = 'vardas';
+const y1 = 'labas mano ';
+const y2 = 'vardas ';
 const y3 = 'Eimantas';
 
 console.log(y1);
@@ -50,6 +50,52 @@ while (k < 5) {
 }
 console.log("-----------")
 
-//KINTAMUJU PALYGINIMAS
+//VEIKSMAI SU KINTAMAISIAIS
 
 //1.
+const sum1 = x1 + x2 + x3;
+console.log(sum1);
+console.log('-------------------')
+//2.
+const sum2 = y1 + y2 + y3;
+console.log(sum2);
+//3.
+const marks = [1, -2, 3, -4, 5];
+let sum3 = 0;
+for (let i = 0; i < marks.length; i++) {
+    sum3 += marks[i];
+}
+console.log(sum3);
+console.clear();
+
+// let student1 = 'joNas';
+// let student1 = 'joNas'.split('').join(' ');
+// console.log(normalName('joNas'));
+// console.log(student1.slice(1).toLowerCase());
+// let name = student1.at(0).toUpperCase() + student1.slice(1).toLowerCase();
+// console.log(name.replaceAll(' ', ''))
+// console.log(name);
+let student1 = 'PeTrAs';
+console.log(normalName(student1));
+function normalName(student1) {
+    student1.split('').join(' ');
+    student1.slice(1).toLowerCase();
+    let name = student1.at(0).toUpperCase() + student1.slice(1).toLowerCase();
+    name.replaceAll(' ', '');
+
+
+    return name;
+
+}
+console.clear();
+
+// 
+let nameSurname = 'Chuck Norris';
+console.log(nameSurname.split('+'));
+console.log(nameSurname.at(' '));
+console.clear();
+
+function greet() {
+    return "hello world!";
+}
+

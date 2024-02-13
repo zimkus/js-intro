@@ -9,11 +9,24 @@ Busimos temos:
     - skaiciai
     - tekstas
     - logines reiksmes
+    - undefined
     - sąrašas
     - objektas
 - salygos (if)
+    - if
+    - ternary
+    - switch
 - ciklai (for)
+    - for
+    - while
+    - do-while
+    - for-of
+    - for-in
+    - kiti cikliski metodai
 - funkcijos
+    - function
+    - arrow function
+    - class
 - ivykiai (event listeners)
 
 */

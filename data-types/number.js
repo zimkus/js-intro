@@ -205,5 +205,4 @@ console.log(string1);
 console.log(string2);
 console.log(string3);
 console.clear();
-const section =
-    console.log(section);
+
