@@ -32,3 +32,8 @@ function marksAverage(marks) {
 
 }
 console.log(marksAverage([10, 10, 10]), '->', 6);
+
+//Duodamas vardas ir pavarde .
+//Grazinti trumpini (inicialai).
+
+// pvz.: Chuck Norris -> C.N 

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    
+    "hof" :"node --watch ./functions/hof.js",
     "string2": "node --watch ./methods/string2.js",
     "array1": "node --watch ./data-types/array1.js",
     "uzduotys": "node --watch ./java-mini-uzduoteles/uzduotys.js",

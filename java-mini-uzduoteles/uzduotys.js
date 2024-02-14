@@ -85,17 +85,15 @@ function normalName(student1) {
 
 
     return name;
-
+    4
 }
 console.clear();
 
 // 
 let nameSurname = 'Chuck Norris';
-console.log(nameSurname.split('+'));
-console.log(nameSurname.at(' '));
-console.clear();
+console.log(nameSurname.split(' '));
+const abbr = `${nameSurname.split(' ')[0][0]}.${nameSurname.split(' ')[1][0]}.w`
+console.log(abbr);
 
-function greet() {
-    return "hello world!";
-}
+
 
